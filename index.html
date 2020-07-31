@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Recipe Rater</title>
+    </head>
+    <body>
+        <h1 id="body_header">Welcome to Recipe Rater</h1>
+        <div class="recipe_container">
+        <aside class="container" id="recipe_list">
+            <h2>List of Recipes</h2>
+            <ul>
+                
+            </ul>
+
+            <div>
+                <form id="recipe-form">
+
+                    <p id="form_head">Create a recipe:</p>
+
+                    <label for="title">Title</label>
+                    <input type="text" id="title_id" name="title"></input>
+                    <label for="image">Image</label>
+                    <input type="text" id="image_id" name="image"></input>
+                    <label for="servings">Servings</label>
+                    <input type="text" id="servings_id" name="servings"></input>
+                    <label for="readyInMinutes">Preparation Time</label>
+                    <input type="text" id="prepTime_id" name="readyInMinutes"></input>
+                    <label for="sourceName">Source Name</label>
+                    <input type="text" id="sourceName_id" name="sourceName"></input>
+                    <label for="sourceUrl">Source URL</label>
+                    <input type="text" id="sourceUrl_id" name="sourceUrl"></input>
+                    <label for="cuisines">Cuisine</label>
+                    <input type="text" id="cuisines_id" name="cuisines"></input>
+                    <label for="dairyFree">Dairy Free?</label>
+                    <input type="text" id="dairy_id" name="dairyFree"></input>
+                    <label for="glutenFree">Gluten Free?</label>
+                    <input type="text" id="gluten_id" name="glutenFree"></input>
+                    <label for="vegan">Vegan?</label>
+                    <input type="text" id="vegan_id" name="vegan"></input>
+                    <label for="vegetarian">Vegetarian?</label>
+                    <input type="text" id="vegetarian_id" name="vegetarian"></input>
+                    <label for="ingredients">Ingredients</label>
+                    <input type="text" id="ingredients_id" name="ingredients"></input>
+          
+                    <button type="submit" id="create_recipe_btn">Create Recipe</button>
+                
+                </form>
+            </div>
+        </aside>
+        <main class="container">
+            <div id="recipe_information">
+                <h1 id="recipe">Recipe</h1>
+                <div id= "info">
+                    <h3 id="title"></h3>
+                    <h3 id="servings"></h3>
+                    <h3 id="readyInMinutes"></h3>
+                    <h3 id="sourceName"></h3>
+                    <h3 id="sourceUrl"></h3>
+                    <h3 id="cuisines"></h3>
+                    <h3 id="dairyFree"></h3>
+                    <h3 id="glutenFree"></h3>
+                    <h3 id="vegan"></h3>
+                    <h3 id="vegetarian"></h3>
+                    <p id="ingredients"></p>
+                </div>
+            </div>
+        </main>    
+        </div>
+
+        <ol class="reviews">
+
+        </ol>
+
+
+        <form class="review-form">
+
+            <label for="title">Title</label>
+            <input type="text" name="title"></input>
+            <label for="author">Author</label>
+            <input type="text" name="author"></input>
+            <label for="content">Content</label>
+            <input type="text" name="content"></input>
+                    
+            <button class="review-button" type="submit">Leave Review</button>
+        </form>
+
+        
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
